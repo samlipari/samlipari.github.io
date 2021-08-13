@@ -217,7 +217,6 @@ p {
   text-align: left;
   height: 15%;
   width: 75%;
-  margin-bottom: 20%;
   margin-top: 0;
   margin-left: 2%;
   margin-right: 0;
@@ -276,13 +275,11 @@ p {
   flex-wrap: wrap;
   margin-top: 25%;
   margin-bottom: 25%;
-  min-width: 800px;
   margin-left: auto;
 }
 
 .information {
   width: 70%;
-  min-width: 400px;
   text-align: center;
   margin: auto;
   flex-wrap:wrap;
@@ -334,7 +331,7 @@ p {
 h3 {
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: left;
   margin: 0;
 }
