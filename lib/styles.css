@@ -210,8 +210,7 @@ p {
   display: flex;
   flex-direction: row;
   text-align: left;
-  height: 25rem;
-  width: 50rem;
+  height: 450px;
 }
 
 #about-title {
@@ -308,7 +307,7 @@ p {
 }
 
 #projects {
-  height: 640px;
+  height: 775px;
   width: 800px;
   display: flex;
   flex-direction: row;
