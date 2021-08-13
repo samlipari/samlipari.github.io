@@ -347,7 +347,17 @@ footer {
   margin-top: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
+  #software-container {
+    margin-left: auto;
+  }
+  
+   #aspiring-container {
+    margin-top: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
   #sidemenu {
     width: 100%;
     height: 80px;
