@@ -275,13 +275,11 @@ p {
   flex-wrap: wrap;
   margin-top: 25%;
   margin-bottom: 25%;
-  margin-left: auto;
 }
 
 .information {
   width: 70%;
   text-align: center;
-  margin: auto;
   flex-wrap:wrap;
   background-color: rgba(253, 253, 253, 0.13);
 }
@@ -293,19 +291,13 @@ p {
 .project-imgs {
   height: 30%;
   width: 30%;
-  margin-right: 10px;
+  margin-right: 0;
   border: 2px white solid;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
-#projects {
-  height: 70%;
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+#proj-border {
+  border-top: 1px white dotted;
 }
 
 #project-title {
@@ -315,10 +307,11 @@ p {
 
 .proj-container {
   display: flex;
+  justify-content: top;
   flex-direction: row;
-  margin-bottom: 35px;
+  text-align: center;
   padding: 5px;
-  align-items: left;
+  margin: 5%;
 }
 
 .pg-links {
@@ -346,9 +339,12 @@ footer {
 
 .details-container {
   display: flex;
+  width: 100%;
   flex-direction: column;
   text-align: left;
   justify-content: top;
+  margin: 5%;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 700px) {
@@ -379,5 +375,37 @@ footer {
   
   #aspiring-container {
     margin-top: 75%;
+  }
+  
+  .proj-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+  }
+
+  .details-container, .project-imgs {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    align-self: center;
+  }
+
+  #me {
+    margin: 0;
+    margin-bottom: 5%;
+    align-self: center;
+  }
+  
+  #about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #me-descrip {
+    text-align: center;
+    margin: 0;
+    align-self: center;
   }
 }
