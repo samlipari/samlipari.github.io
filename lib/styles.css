@@ -391,6 +391,11 @@ footer {
     margin: 0;
     align-self: center;
   }
+  
+  .details-container {
+    padding: 8%;
+    padding-top: 0;
+  }
 
   #me {
     height: 20%;
