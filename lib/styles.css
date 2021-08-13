@@ -368,4 +368,16 @@ footer {
     height:25px;
     width: 25px;
   }
+  
+   .information {
+    width: 100%;
+  }
+
+  #projects {
+    width: 100%;
+  }
+  
+  #aspiring-container {
+    margin-top: 40%;
+  }
 }
