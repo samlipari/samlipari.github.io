@@ -71,10 +71,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#software-eng {
-  margin:auto;
+  margin: auto;
 }
 
 #software-eng path:nth-child(1) {
@@ -345,16 +342,6 @@ footer {
   justify-content: top;
   margin: 5%;
   margin-top: 0;
-}
-
-@media screen and (max-width: 1200px) {
-  #software-container {
-    margin-left: auto;
-  }
-  
-   #aspiring-container {
-    margin-top: 50%;
-  }
 }
 
 @media screen and (max-width: 800px) {
