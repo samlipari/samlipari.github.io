@@ -344,6 +344,12 @@ footer {
   margin-top: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  #sidemenu {
+    width: 50px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   #sidemenu {
     width: 100%;
