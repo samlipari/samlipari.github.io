@@ -348,6 +348,10 @@ footer {
   #sidemenu {
     width: 50px;
   }
+  
+   #aspiring-container {
+    margin-top: 50%;
+  }
 }
 
 @media screen and (max-width: 400px) {
