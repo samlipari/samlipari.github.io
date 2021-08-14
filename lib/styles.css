@@ -344,6 +344,12 @@ footer {
   margin-top: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  #aspiring-container {
+    margin-top: 35%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   #sidemenu {
     width: 100%;
