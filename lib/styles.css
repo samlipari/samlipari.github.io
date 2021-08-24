@@ -448,4 +448,8 @@ footer {
   .skill-item {
     flex-basis: 30%;
   }
+  
+  .information, #about-me, #projects, #skills {
+    width: 100%;
+  }
 }
