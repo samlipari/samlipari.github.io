@@ -1,3 +1,6 @@
 [submodule "Cafe-Site"]
 	path = Cafe-Site
 	url = https://github.com/samlipari/Cafe-Site
+[submodule "News-App"]
+	path = News-App
+	url = https://github.com/samlipari/News-App
