@@ -212,7 +212,7 @@ button {
   width: 100%;
   border-style: none;
   border-radius: 8%;
-  border: .5px solid white;
+  border: 1px solid white;
   padding: 8%;
   color: white;
   font-family: 'Quicksand', sans-serif;
@@ -221,7 +221,7 @@ button {
 }
 
 .last {
-  border-right: .5px solid white;
+  border-right: 1px solid white;
 }
 
 .new-information {
@@ -383,11 +383,11 @@ a {
   align-self: center;
   font-size: 1.4rem;
   color: white;
-  padding: 3%;
+  padding: 5%;
   padding-left: 1%;
   padding-right: 1%;
   margin: 0;
-  width: 12%;
+  width: 15%;
   height: 40%;
   text-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
 }
@@ -408,9 +408,20 @@ a {
    section {
      width: 70%;
    }
+
+   #software-container {
+    margin-top: 50%;
+   }
+
+   .titles h3 {
+    width: 18%;
+    padding: 6%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   section {
     width: 100%;
   }
@@ -423,10 +434,6 @@ a {
     margin: 1%;
   }
 
-  .titles h3 {
-    font-size: .8rem;
-  }
-
   h1 {
     font-size: 2.5rem;
   }
@@ -434,11 +441,21 @@ a {
   .buttons {
     width: 100%;
   }
+
+  .titles h3 {
+    width: 20%;
+    padding: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 415px) {
   .titles h3 {
-    font-size: .7rem;
+    width: 32%;
+    padding: 7%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
 
