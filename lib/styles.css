@@ -410,7 +410,7 @@ a {
    }
 
    #software-container {
-    margin-top: 50%;
+    margin-top: 60%;
    }
 
    .titles h3 {
@@ -457,5 +457,9 @@ a {
     padding-left: 4%;
     padding-right: 4%;
   }
+  
+  #software-container {
+    margin-top: 70%;
+   }
 }
 
