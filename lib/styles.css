@@ -428,8 +428,10 @@ a {
   }
 
   .titles h3 {
-    width: 16%;
-    padding: 4%;
+    width: 20%;
+    padding: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
@@ -448,13 +450,6 @@ a {
 
   .buttons {
     width: 100%;
-  }
-
-  .titles h3 {
-    width: 20%;
-    padding: 6%;
-    padding-left: 2%;
-    padding-right: 2%;
   }
 }
 
