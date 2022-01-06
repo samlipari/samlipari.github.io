@@ -408,21 +408,33 @@ a {
    section {
      width: 70%;
    }
+  
+   #me2 {
+     height: 10%;
+     width: 15%;
+   }
 
    .titles h3 {
-    width: 18%;
-    padding: 6%;
+    width: 12%;
+    padding: 4%;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media screen and (max-width: 600px) {
-  section {
+@media screen and (max-width: 850px) {
+  .project {
     width: 100%;
   }
 
-  .project {
+  .titles h3 {
+    width: 16%;
+    padding: 4%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
     width: 100%;
   }
 
