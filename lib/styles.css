@@ -166,7 +166,7 @@ main {
   padding: 0;
 }
 
-#info, #skills-new, #about-me2, #projects {
+#info, #skills-new, #about-me2, #projects-sect {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   color: white;
@@ -341,7 +341,7 @@ a {
   width: 100%;
 }
 
-#projects {
+#projects-sect {
   display: flex;
   flex-direction: row;
   justify-content: center;
