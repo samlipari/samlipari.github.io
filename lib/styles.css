@@ -440,6 +440,10 @@ a {
   section {
     width: 100%;
   }
+  
+  #menu {
+    background: linear-gradient(.25turn, #614385, #516395);
+  }
 
   #about-me2 p {
     margin: 1%;
