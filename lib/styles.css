@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: linear-gradient(.25turn, #614385, #516395);
+  background: #f2f2f2;
   background-repeat: repeat-x;
 }
 
@@ -13,23 +13,32 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 #page-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 100%;
 }
 
 #menu {
   position: sticky;
+  border: none;
   top: 0;
   left: 0;
-  background: linear-gradient(.25turn, #5e4888, #555a91);
-  background-repeat: repeat-x;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  background: #f2f2f2;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding-bottom: 2%;
 }
 
 #nav-list {
+  border: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,11 +62,16 @@ ul {
 }
 
 #software-container {
-  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  align-self: right;
+  align-items: right;
+  align-content: right;
+  margin-left: 50%;
   min-width: 0;
-  width: 100%;
-  height: 100vh;
-  margin-top: 25%;
+  width: 50%;
+  height: 15%;
+
 }
 
 #software-eng path:nth-child(1) {
@@ -168,40 +182,49 @@ main {
   padding: 0;
 }
 
-#info, #skills-new, #about-me2, #projects-sect {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  color: white;
-}
-
-#skills-new {
-  padding: 10%;
-  font-family: 'Quicksand', sans-serif;
-}
-
 #info {
-  margin-top: 20%;
   display: flex;
-  justify-content: center;
-  text-align: center;
-  width:100%;
+  flex-direction: column;
+  align-self: center;
+  text-align: right;
+  align-content: left;
+  width:auto;
+  height: 50%;
+  font-family: 'Quicksand', sans-serif;
+  font-size:20px;
 }
 
-section {
-  width: 45%;
+#info-section {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 1;
+  padding: 5%;
+  font-size:20px;
+  background-color: rgba(229,231,235);
+  border-radius: 2%;
+  opacity: 1;
+  padding: 5%;
 }
 
-h1 {
-  font-family: 'Oooh Baby', cursive;
-  color: white;
-  text-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
-  font-size: 4rem;
-  font-weight: 100;
-  width: 100%;
-  height: 40%;
+#me {
+  width: 250px;
+  height: 330px;
+/*   margin-left: -90px;
+  margin-bottom: -470px; */
+  border-radius: 20%;
+  margin-top: 3%;
 }
+
+/* section {
+  width: 75%;
+} */
 
 nav {
+  border: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -211,19 +234,126 @@ button {
   background: transparent;
   height: 100%;
   width: 100%;
-  border-style: none;
-  border-radius: 8%;
-  border: 1px solid white;
-  padding: 8%;
-  color: white;
+  padding-top: 8%;
+  color: black;
   font-family: 'Quicksand', sans-serif;
-  border-right: none;
+  font-size: 25px;
+  border: none;
   transition: .5s ease;
 }
 
-.last {
-  border-right: 1px solid white;
+#info-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  font-size: 18px;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
+
+.info-btn {
+  width: auto;
+  margin: 2%;
+  padding: 1.2%;
+  border: 1px solid black;
+  border-radius: 3%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+}
+
+#logo {
+  height: 300px;
+  width: 300px;
+  border-radius: 2%;
+  margin-right: 3%;
+}
+
+#demo {
+  margin-top: 5%;
+  height: 100%;
+  width: 100%;
+}
+
+#demo-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  margin-top: 5%;
+  padding: 0;
+}
+
+#sentinel-container section {
+  margin-top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: right;
+  align-content: left;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(229,231,235);
+  border-radius: 2%;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 1;
+  padding: 5%;
+  font-size:20px;
+}
+
+#sentinel-descrip {
+  display: flex;
+  flex-direction: row;
+}
+
+#project-container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width:100%;
+  height: 50%;
+  background-color: rgba(229,231,235);
+  border-radius: 2%;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 1;
+  padding: 5%;
+  font-size:20px;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(229,231,235);
+  border-radius: 2%;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 1;
+  padding: 5%;
+  font-size:20px;
+}
+
+
+
 
 .new-information {
   display: flex;
@@ -232,170 +362,81 @@ button {
   list-style-type: none;
 }
 
-.contact-icon{
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 20%;
-}
-
-.git-icon {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 2%;
-}
-
-.new-information li {
-  margin: 5%;
-  margin-top: 0;
-  margin-bottom: 0;
-  height:45px;
-  width: 45px;
-}
-
-.contact-icon:hover, button:hover, .git-icon:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-}
-
-.divider {
-  border-right: 1px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  width: 50%;
-}
-
-#skills-new {
+.contact {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 40%;
+  align-self: center;
+  width: 85%;
 }
 
-.skillsList1, .skillsList2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-content: top;
-  color: white;
-}
-
-.skillsList1 li, .skillsList2 li{
-  background-image: url('../images/check.png');
-  list-style: none;
-  background-repeat: no-repeat;
-  line-height: auto;
-  padding-left: 30px;
-  margin: 2%;
+.contact-icon:hover, .info-btn:hover, button:hover, .git-icon:hover {
+  font-weight: bold;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: 'Quicksand', sans-serif;
 }
 
 .buttons {
-  border: none;
   height: 20%;
-  width: 100%;
+  width: 15%;
 }
 
-#about-me2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width:100%;
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.3rem;
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-#me2 {
-  height: 15%;
-  width: 25%;
-  border-radius: 40%;
-  border: 1px white solid;
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
-  }
-
-#section-container {
+#section-container, #sentinel-container, #project-container {
   display: flex;
   align-items: center;
   flex-direction: column;
+  align-content: center;
+  align-self: center;
   flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 25%;
-  width: 100%;
+}
+
+#section-container {
+  margin-bottom: 0;
+  width: 75%;
 }
 
 #projects-sect {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
-  text-align: center;
   flex-wrap: wrap;
   padding: 0;
   width: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  background-color: rgba(229,231,235);
 }
 
 .project {
-  color: white;
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
-  font-family: 'Quicksand', sans-serif;
-  margin: 0;
-  padding: 3%;
-  width: 40%;
-  margin: 5%;
-}
-
-.titles {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-self: center;
   text-align: center;
   align-content: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  align-items: center;
+  color: black;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+  font-family: 'Quicksand', sans-serif;
+  margin: 2%;
+  padding: 2%;
+  width: 250px;
+  height: 350px;
+  font-size:15px;
 }
 
-.titles h3 {
-  border: 1px solid white;
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  font-family: 'Oooh Baby', cursive;
-  align-self: center;
-  font-size: 1.4rem;
-  color: white;
-  padding: 5%;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin: 0;
-  width: 15%;
-  height: 40%;
-  text-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+.name {
+  margin-bottom: 0;
 }
 
 #footer {
-  font-family: 'Oooh Baby', cursive;
-  color: white;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  margin-top: 55%;
   margin-bottom: 0;
   text-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
 }
@@ -405,69 +446,71 @@ a {
 
 
 
-@media screen and (max-width: 1400px) {
-   section {
-     width: 70%;
-   }
-  
-   #me2 {
-     height: 10%;
-     width: 15%;
-   }
+@media screen and (max-width: 1000px) {
+  #info-section {
+    flex-direction: column;
+    align-items: center;
+  }
 
-   .titles h3 {
-    width: 12%;
-    padding: 4%;
-    padding-left: 0;
-    padding-right: 0;
+  #info {
+    text-align: center;
+  }
+
+  #software-container {
+    margin-left: 25%;
+  }
+
+  #info-btns {
+    justify-content: center;
+  }
+
+  #section-container {
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 850px) {
-  .project {
-    width: 100%;
-  }
-
-  .titles h3 {
-    width: 20%;
-    padding: 6%;
-    padding-left: 2%;
-    padding-right: 2%;
+  #me {
+    width: 170px;
+    height: 230px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  section {
-    width: 100%;
+  #sentinel-descrip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-btn {
+    justify-content: center;
+  }
+
   #menu {
-    background: linear-gradient(.25turn, #614385, #516395);
-  }
-
-  #about-me2 p {
-    margin: 1%;
-  }
-
-  h1 {
-    font-size: 2.5rem;
+    display: none;
   }
 
   .buttons {
-    width: 100%;
+    height: 15%;
+    width: 10%;
+  }
+
+  button, #info-btns, .info-btn  {
+    font-size: 15px;
+  }
+
+  .contact-btn {
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 415px) {
-  .titles h3 {
-    width: 32%;
-    padding: 7%;
-    padding-left: 4%;
-    padding-right: 4%;
-  }
   
-  #software-container {
-    margin-top: 70%;
-   }
 }
 
