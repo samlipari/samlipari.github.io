@@ -379,6 +379,7 @@ a {
   padding: 0;
   width: 100%;
   background-color: rgba(229,231,235);
+  margin: 0;
 }
 
 .project {
@@ -391,10 +392,10 @@ a {
   color: black;
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
   font-family: 'Quicksand', sans-serif;
-  margin: 2%;
-  padding: 2%;
-  width: 250px;
-  height: 350px;
+  margin: 1%;
+  padding: 1%;
+  width: 220px;
+  height: 320px;
   font-size:15px;
 }
 
