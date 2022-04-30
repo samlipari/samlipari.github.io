@@ -464,8 +464,16 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
   #info-btns, .info-btn  {
     font-size: 15px;
+  }
+
+  .info-btn {
+    width: auto;
   }
 
   .contact-btn {
