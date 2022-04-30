@@ -37,21 +37,6 @@ body {
   padding-bottom: 2%;
 }
 
-#nav-list {
-  border: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0;
-  margin-top: 10%;
-  padding: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
 #software-eng {
   width: 100%;
 }
@@ -213,15 +198,9 @@ main {
 #me {
   width: 250px;
   height: 330px;
-/*   margin-left: -90px;
-  margin-bottom: -470px; */
   border-radius: 20%;
   margin-top: 3%;
 }
-
-/* section {
-  width: 75%;
-} */
 
 nav {
   border: none;
@@ -352,16 +331,6 @@ button {
   font-size:20px;
 }
 
-
-
-
-.new-information {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style-type: none;
-}
-
 .contact {
   list-style: none;
   display: flex;
@@ -442,10 +411,6 @@ a {
 }
 
 
-
-
-
-
 @media screen and (max-width: 1000px) {
   #info-section {
     flex-direction: column;
@@ -457,7 +422,8 @@ a {
   }
 
   #software-container {
-    margin-left: 25%;
+    margin: 0;
+    width: 100%;
   }
 
   #info-btns {
@@ -467,16 +433,7 @@ a {
   #section-container {
     width: 95%;
   }
-}
 
-@media screen and (max-width: 850px) {
-  #me {
-    width: 170px;
-    height: 230px;
-  }
-}
-
-@media screen and (max-width: 600px) {
   #sentinel-descrip {
     display: flex;
     flex-direction: column;
@@ -484,8 +441,17 @@ a {
     text-align: center;
   }
 
+}
+
+@media screen and (max-width: 850px) {
+  #me {
+    width: 170px;
+    height: 230px;
+  }
+
   .contact {
     flex-direction: column;
+    width: 40%;
   }
 
   .contact-btn {
@@ -493,15 +459,12 @@ a {
   }
 
   #menu {
-    display: none;
+    justify-content: space-between;
   }
+}
 
-  .buttons {
-    height: 15%;
-    width: 10%;
-  }
-
-  button, #info-btns, .info-btn  {
+@media screen and (max-width: 600px) {
+  #info-btns, .info-btn  {
     font-size: 15px;
   }
 
